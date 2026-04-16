@@ -1,0 +1,97 @@
+[
+    {
+        "UpdateStageName": "Create Server Directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullBaseDir}}server",
+        "OverwriteExistingFiles": false,
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Delete Binary Directory Contents",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "cmd.exe",
+        "UpdateSourceArgs": "/C del /Q /F \"{{$FullBaseDir}}server\\alpine\\\"* > NUL 2>&1",
+        "SkipOnFailure": true
+    },
+    {
+        "UpdateStageName": "Server Download",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURLFromJQ",
+        "UpdateSourceData": "https://changelogs-live.fivem.net/api/changelog/versions/win32/server",
+        "UpdateSourceArgs": "$.recommended_download",
+        "UpdateSourceTarget": "{{$FullBaseDir}}server",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "UpdateSourceConditionSetting": "ServerBuild",
+        "UpdateSourceConditionValue": "recommended_download",
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Server Download",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURLFromJQ",
+        "UpdateSourceData": "https://changelogs-live.fivem.net/api/changelog/versions/win32/server",
+        "UpdateSourceArgs": "$.optional_download",
+        "UpdateSourceTarget": "{{$FullBaseDir}}server",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "UpdateSourceConditionSetting": "ServerBuild",
+        "UpdateSourceConditionValue": "optional_download",
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Server Download",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURLFromJQ",
+        "UpdateSourceData": "https://changelogs-live.fivem.net/api/changelog/versions/win32/server",
+        "UpdateSourceArgs": "$.latest_download",
+        "UpdateSourceTarget": "{{$FullBaseDir}}server",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "UpdateSourceConditionSetting": "ServerBuild",
+        "UpdateSourceConditionValue": "latest_download",
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Server Download",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURLFromJQ",
+        "UpdateSourceData": "https://changelogs-live.fivem.net/api/changelog/versions/win32/server",
+        "UpdateSourceArgs": "$.critical_download",
+        "UpdateSourceTarget": "{{$FullBaseDir}}server",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "UpdateSourceConditionSetting": "ServerBuild",
+        "UpdateSourceConditionValue": "critical_download",
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Server Download",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "{{SpecificBuildVersionURL}}",
+        "UpdateSourceTarget": "{{$FullBaseDir}}server",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "UpdateSourceConditionSetting": "ServerBuild",
+        "UpdateSourceConditionValue": "SpecificVersion",
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Server.cfg Template Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/fivemserver.cfg",
+        "UpdateSourceArgs": "AMP_server.cfg",
+        "UpdateSourceTarget": "{{$FullInstanceDir}}",
+        "OverwriteExistingFiles": false,
+        "SkipOnFailure": false
+    }
+]
