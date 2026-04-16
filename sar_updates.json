@@ -88,7 +88,7 @@
         "UpdateStageName": "Server.cfg Template Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/fivemserver.cfg",
+        "UpdateSourceData": "https://raw.githubusercontent.com/Sethy1124/SAR_AMPTemplate/main/sar_server.cfg",
         "UpdateSourceArgs": "AMP_server.cfg",
         "UpdateSourceTarget": "{{$FullInstanceDir}}",
         "OverwriteExistingFiles": false,
