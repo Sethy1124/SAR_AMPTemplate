@@ -3,6 +3,6 @@
         "ConfigFile": "server.cfg",
         "AutoMap": true,
         "ConfigType": "template",
-        "ConfigFileTemplate": "./AMP_server.cfg"
+        "ConfigFileTemplate": "./sar_server.cfg"
     }
 ]
