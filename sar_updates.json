@@ -89,7 +89,7 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://raw.githubusercontent.com/Sethy1124/SAR_AMPTemplate/main/sar_server.cfg",
-        "UpdateSourceArgs": "AMP_server.cfg",
+        "UpdateSourceArgs": "sar_server.cfg",
         "UpdateSourceTarget": "{{$FullInstanceDir}}",
         "OverwriteExistingFiles": false,
         "SkipOnFailure": false
