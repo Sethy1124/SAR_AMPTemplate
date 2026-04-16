@@ -5,7 +5,7 @@ Meta.AarchSupport=Unknown
 Meta.Arch=x86_64
 Meta.Author=Sethy1124
 Meta.URL=https://www.sarrp.org
-Meta.DisplayImageSource=steam:2676230
+Meta.DisplayImageSource=steam:271590
 Meta.EndpointURIFormat=
 Meta.ConfigManifest=sar_config.json
 Meta.MetaConfigManifest=sar_metaconfig.json
@@ -36,7 +36,7 @@ App.WindowsCommandLineArgs=
 App.CommandLineArgs=+set TXHOST_TXA_PORT={{txPort}}
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
-App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"2676230","YARN_TIMEOUT_CONFIG":"100000"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"271590","YARN_TIMEOUT_CONFIG":"100000"}
 App.CommandLineParameterFormat=+{0} {1}
 App.CommandLineParameterDelimiter= 
 App.ExitMethod=String
