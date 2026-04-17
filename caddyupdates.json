@@ -19,5 +19,15 @@
         "UpdateSourceConditionSetting": "",
         "DeleteAfterExtract": true,
         "OneShot": false
+    },
+    {
+        "UpdateStageName": "Download Caddyfile Template",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/Sethy1124/SAR_AMPTemplate/main/caddyfile",
+        "UpdateSourceArgs": "Caddyfile",
+        "UpdateSourceTarget": "{{$FullInstanceDir}}",
+        "OverwriteExistingFiles": true,
+        "SkipOnFailure": false
     }
 ]
