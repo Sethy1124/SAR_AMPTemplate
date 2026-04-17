@@ -4,6 +4,5 @@
         "AutoMap": true
         "ConfigType": "template",
         "ConfigFileTemplate":"./caddyfile"
-        
     }
 ]
