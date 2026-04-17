@@ -5,12 +5,5 @@
         "Name": "Admin API",
         "Description": "Caddy Admin API",
         "Ref": "AdminAPI"
-    },
-    {
-        "Protocol": "Both",
-        "Port": "2015",
-        "Name": "API",
-        "Description": "Caddy API",
-        "Ref": "API"
     }
 ]
