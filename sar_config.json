@@ -188,7 +188,7 @@
         "FieldName": "sv_enforceGameBuild",
         "InputType": "enum",
         "ParamFieldName": "sv_enforceGameBuild",
-        "DefaultValue": "1604",
+        "DefaultValue": "3571",
         "EnumValues": {
             "1": "1 (Base game without any DLCs)",
             "1604": "1604 (Arena War)",
