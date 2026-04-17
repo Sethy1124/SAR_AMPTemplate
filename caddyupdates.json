@@ -5,7 +5,7 @@
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "caddy_2.11.2_windows_arm64.zip",
         "UpdateSourceArgs": "caddyserver/caddy",
-        "UpdateSourceTarget": "caddy",
+        "UpdateSourceTarget": "./",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": true,
         "UpdateSourceConditionSetting": "",
