@@ -6,14 +6,9 @@
         "Keywords": "caddyfile",
         "FieldName": "Caddyfile",
         "InputType": "Textarea",
-        "IsFlagArgument": false,
         "ParamFieldName": "Caddyfile",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "localhost\nrespond \"Hello, world!\"",
-        "Placeholder": "localhost\nrespond \"Hello, world!\"",
-        "Suffix": "",
-        "Hidden": false,
-        "SkipIfEmpty": false,
+        "DefaultValue": "localhost",
+        "Placeholder": "localhost",
         "EnumValues": {}
     }
 ]
