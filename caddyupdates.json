@@ -1,15 +1,23 @@
 [
     {
+        "UpdateStageName": "Create Caddy Directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullBaseDir}}caddy",
+        "OverwriteExistingFiles": false,
+        "SkipOnFailure": false
+    },
+    {
         "UpdateStageName": "Download Caddy",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "caddy_2.11.2_windows_arm64.zip",
         "UpdateSourceArgs": "caddyserver/caddy",
         "UpdateSourceTarget": "caddy",
-        "UnzipUpdateSource": false,
+        "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "UpdateSourceConditionSetting": "",
-        "DeleteAfterExtract": false,
+        "DeleteAfterExtract": true,
         "OneShot": false
     }
 ]
