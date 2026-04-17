@@ -1,0 +1,36 @@
+[
+    {
+        "DisplayName": "Caddyfile",
+        "Category": "Server Settings",
+        "Description": "Primary Caddyfile Config File",
+        "Keywords": "caddyfile",
+        "FieldName": "Caddyfile",
+        "InputType": "Textarea",
+        "IsFlagArgument": false,
+        "ParamFieldName": "Caddyfile",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "localhost\\nrespond \"Hello, world!\"",
+        "Placeholder": "localhost\\nrespond \"Hello, world!\"",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Caddy Version URL",
+        "Category": "Server Settings",
+        "Description": "The URL to the Caddy Version .zip to be installed",
+        "Keywords": "caddy,version,url",
+        "FieldName": "CaddyReleaseURL",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "CaddyReleaseURL",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "https://github.com/caddyserver/caddy/releases/download/v2.11.2/caddy_2.11.2_windows_arm64.zip",
+        "Placeholder": "https://github.com/caddyserver/caddy/releases/download/v2.11.2/caddy_2.11.2_windows_arm64.zip",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    }
+]

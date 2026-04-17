@@ -1,0 +1,14 @@
+[
+    {
+        "UpdateStageName": "Caddy Download",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "{{CaddyReleaseURL}}",
+        "UpdateSourceTarget": "{{$FullBaseDir}}Caddy",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "UpdateSourceConditionSetting": "",
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]

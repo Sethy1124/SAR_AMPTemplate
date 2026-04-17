@@ -1,0 +1,30 @@
+[
+    {
+        "Protocol": "Both",
+        "Port": "80",
+        "Name": "HTTP",
+        "Description": "Port used for main game traffic",
+        "Ref": "HTTP"
+    },
+    {
+        "Protocol": "Both",
+        "Port": "443",
+        "Name": "HTTPS",
+        "Description": "Port used for main game traffic",
+        "Ref": "HTTPS"
+    },
+    {
+        "Protocol": "Both",
+        "Port": "2019",
+        "Name": "Admin API",
+        "Description": "Port used for main game traffic",
+        "Ref": "AdminAPI"
+    },
+    {
+        "Protocol": "Both",
+        "Port": "2015",
+        "Name": "API",
+        "Description": "Port used for main game traffic",
+        "Ref": "API"
+    }
+]
