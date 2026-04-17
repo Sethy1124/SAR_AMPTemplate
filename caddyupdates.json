@@ -3,12 +3,12 @@
         "UpdateStageName": "Caddy Download",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "{{CaddyReleaseURL}}",
-        "UpdateSourceTarget": "{{$FullBaseDir}}Caddy",
+        "UpdateSourceData": "https://github.com/caddyserver/caddy/releases/download/v2.11.2/caddy_2.11.2_windows_arm64.zip",
+        "UpdateSourceTarget": "caddy",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
-        "UpdateSourceConditionSetting": "CaddyReleaseURL",
-        "DeleteAfterExtract": true,
+        "UpdateSourceConditionSetting": "",
+        "DeleteAfterExtract": false,
         "OneShot": false
     }
 ]
