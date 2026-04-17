@@ -7,7 +7,7 @@
         "UpdateSourceTarget": "{{$FullBaseDir}}Caddy",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
-        "UpdateSourceConditionSetting": "CaddyURL",
+        "UpdateSourceConditionSetting": "CaddyReleaseURL",
         "DeleteAfterExtract": true,
         "OneShot": false
     }
