@@ -1,5 +1,5 @@
 @echo off
 set TXHOST_FXS_PORT={{ServerPort}}
 set TXHOST_TXA_PORT={{txPort}}
-server/FXServer.exe
+server\FXServer.exe
 pause
