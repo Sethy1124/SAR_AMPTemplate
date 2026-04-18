@@ -4,5 +4,11 @@
         "AutoMap": true,
         "ConfigType": "template",
         "ConfigFileTemplate": "./sar_server.cfg"
+    },
+    {
+        "ConfigFile": "server/start.bat",
+        "AutoMap": true,
+        "ConfigType": "template",
+        "ConfigFileTemplate": "./sar_start.bat"
     }
 ]
