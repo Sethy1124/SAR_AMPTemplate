@@ -8,6 +8,7 @@
         "FieldName": "$ServerPort",
         "InputType": "number",
         "Required": true,
+		"Hidden": true,
         "ParamFieldName": "ServerPort",
         "EnumValues": {}
     },
@@ -20,6 +21,7 @@
         "FieldName": "$txPort",
         "InputType": "number",
         "Required": true,
+		"Hidden": true,
         "ParamFieldName": "txPort",
         "EnumValues": {}
 	},
