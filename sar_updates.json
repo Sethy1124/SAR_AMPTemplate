@@ -93,5 +93,15 @@
         "UpdateSourceTarget": "{{$FullInstanceDir}}",
         "OverwriteExistingFiles": false,
         "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "start.bat Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/Sethy1124/SAR_AMPTemplate/main/sar_start.bat",
+        "UpdateSourceArgs": "sar_start.bat",
+        "UpdateSourceTarget": "{{$FullInstanceDir}}",
+        "OverwriteExistingFiles": false,
+        "SkipOnFailure": false
     }
 ]
