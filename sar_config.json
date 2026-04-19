@@ -396,33 +396,5 @@
         "DefaultValue": "",
         "Placeholder": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/6593-7672c8c849165dad70a1e82f89e31059d8fcf20d/server.zip",
         "EnumValues": {}
-    },
-    {
-        "DisplayName": "Resource GitHub Repo",
-        "Category": "Updates",
-        "Subcategory": "Server Updates:build:-1",
-        "Description": "Sets the GitHub repo from which to clone resources. If \"Custom repo\" is selected, the relevant repo URL must be set under Custom Repo URL. Delete the server-data directory and update the server after changing this setting",
-        "Keywords": "resource,repo,repository,github",
-        "FieldName": "ResourceRepo",
-        "InputType": "enum",
-        "ParamFieldName": "ResourceRepo",
-        "DefaultValue": "https://github.com/citizenfx/cfx-server-data.git",
-        "EnumValues": {
-            "https://github.com/citizenfx/cfx-server-data.git": "Cfx.re standard repo (default)",
-            "{{CustomRepo}}": "Custom repo"
-        }
-    },
-    {
-        "DisplayName": "Custom Repo URL",
-        "Category": "Updates",
-        "Subcategory": "Server Updates:build:-1",
-        "Description": "Sets the URL for a custom repo from which to clone resources, if \"Custom repo\" is selected under Resource GitHub Repo. The URL must end in .git. The repo must be public and on the main/master branch",
-        "Keywords": "resource,custom,repo,repository,github,url",
-        "FieldName": "CustomRepo",
-        "InputType": "url",
-        "ParamFieldName": "CustomRepo",
-        "DefaultValue": "",
-        "Placeholder": "https://github.com/username/reponame.git",
-        "EnumValues": {}
     }
 ]
