@@ -27,7 +27,7 @@
         "UpdateSourceData": "https://raw.githubusercontent.com/Sethy1124/SAR_AMPTemplate/main/caddyfile",
         "UpdateSourceArgs": "Caddyfile",
         "UpdateSourceTarget": "{{$FullInstanceDir}}",
-        "OverwriteExistingFiles": true,
+        "OverwriteExistingFiles": false,
         "SkipOnFailure": false
     }
 ]
