@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "Caddyfile",
-        "Category": "Server Settings",
+        "Category": "Caddyfile",
         "Description": "Primary Caddyfile Config File",
         "Keywords": "caddyfile",
         "FieldName": "Caddyfile",
